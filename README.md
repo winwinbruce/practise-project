@@ -5,7 +5,7 @@
 pip install -r requirements.txt
 
 
-gunicorn -w 4 -b 127.0.0.1:5000 run:app
+gunicorn -w 4 -b 127.0.0.1:5000 my_app:app
 
 
 ML model for mnist using postman to post
